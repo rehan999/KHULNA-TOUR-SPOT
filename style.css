@@ -57,3 +57,6 @@ body{
     color: white;
     font-weight: 900;
 }
+footer p {
+    text-align: center;
+}
