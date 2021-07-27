@@ -6,13 +6,16 @@ body{
 #center{
     text-align: center;
     border-radius: 15px;
-    border: 4mm ridge rgba(170, 50, 220, .6); 
+    border: 4mm ridge rgba(60, 17, 78, 0.6); 
     background-color: rgb(231, 213, 207);
     color: rgb(99, 153, 55);
     text-shadow: 1px 1px red;
 }
 .color{
-    color: darkorange;
+    color: hsl(330, 81%, 42%);
+}
+.text{
+    text-shadow:1px 1px rgb(88, 39, 204);
 }
 .flexible{
     display: flex;
@@ -21,6 +24,19 @@ body{
 .paragraph{
     width: 50%;
     padding-left: 5%;
+}
+.box-style{
+    box-shadow: 10px 5px 5px turquoise;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    padding-right: 15px;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    text-align: justify;
+    border-style: inset;
+    background-image: linear-gradient(rgb(243, 205, 241),rgb(231, 241, 169));
 
 }
 .picture{
